@@ -1,0 +1,38 @@
+.expense-list{
+    margin: 0.3em 0.6em;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+.empty-state{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 500;
+    height: 260px;
+    border-radius: 39px;
+background: #fc7f03;
+box-shadow:  10px 10px 20px #e37203;
+color: aliceblue;
+ font-size: 1.25rem;
+
+  
+
+}
+@media only screen and (max-width:1024px)
+{
+    .empty-state{
+        height: 240;
+    }
+}
+@media only screen and (max-width:512px)
+{
+    .empty-state{
+       height: 40vh;
+       max-height: 240px;
+       width: 100%;
+       text-align: center;
+       padding-inline:0 ;
+    }
+}

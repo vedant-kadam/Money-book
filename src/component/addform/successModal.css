@@ -1,0 +1,47 @@
+.modal-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.image-cnt{
+    height: 260px;
+    width: 100%;
+    margin-inline: auto;
+    background-color: #fc7f03;
+
+
+}
+.ReactModal__Content{
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+.take-home-btn{
+    border: 1px solid black;
+    padding: 0.25em 0.5em;
+    border-radius: 0.4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.take-home-btn>span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.4em;    
+}
+
+@media only screen and (max-width:1024px)
+{
+    .image-cnt{
+        height: 200px;
+    }
+}
+@media only screen and (max-width:512px)
+{
+    .image-cnt{
+        height: 160px;
+    }
+}

@@ -1,0 +1,100 @@
+.topfold{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5em 0.8em;
+    padding: 1em 0em;
+}
+.home-topfold{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1em;
+}
+.searchbar>input{
+    width: 80%;
+    border: none;
+    padding: 0.5em 0 ;
+    margin-left: 0.5em;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+
+}
+.searchbar>span{
+    display: flex;
+    align-items: center;
+    margin-left: 0.4em;
+}
+
+.add-button{
+    display: flex;
+    align-items: center;
+    border-radius: 0.4em;
+    border: 1px solid whitesmoke;
+    font-size: 1.25em;
+    padding: 0 0.5em;
+    margin-right: 0.25em;
+    cursor: pointer;
+
+}
+.add-button>span{
+    display: flex;
+    align-items: center;
+    margin-right: 00.25em;
+}
+
+.add-topfold{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    margin-inline: 1em;
+}
+.add-topfold-button{
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.add-topfold-button>span{
+    display: flex;
+    align-items: center;
+    margin-right: 00.25em;
+}
+
+@media screen and (max-width:512px)
+{
+    .home-topfold{
+        /* flex-direction: column; */
+        flex: 1;
+        gap: 0.25em;
+    }
+    .searchbar{
+        width: 60%;
+        flex: 1;
+    }
+    .add-button{
+        display: flex;
+        align-items: center;
+        border-radius: 0.4em;
+        border: 1px solid whitesmoke;
+        font-size: 1.2em;
+        padding: 0 0.2em;
+        margin-right: 0.2em;
+        cursor: pointer;
+    
+
+    }
+    .searchbar>input{
+        border-radius: 1em;
+    }
+    
+}

@@ -1,0 +1,127 @@
+.add-form{
+    
+    background: #fc7f03;
+    box-shadow:  20px 20px 60px #d66c03,
+                -20px -20px 60px #ff9203;
+    margin: 0.4em 0.6em;
+    padding: 1.3em;
+    display: flex;
+    flex-direction: column;
+    
+    flex: 1;
+    min-height: 60vh;
+
+}
+.form-item{
+    margin: 0.8em 0;
+    width: 70%;
+    padding: 0.25em;
+    border-radius: .25em;
+    background-color: antiquewhite;
+
+    margin-inline:auto ;
+
+}
+.form-item>label{
+    background-color: rgb(242, 126, 26);
+    padding: 0.1em 0.6em;
+    border-radius: 0 0.3em 0.3em 0;
+    display: flex;
+    align-items: center;
+    font-weight: 500;    
+}
+.form-item>input{
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    width: 100%;
+
+}
+.categorgy-container-parent{
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+
+}
+.category{
+    position: relative;
+    width: 40%;
+    min-width: 120px;
+
+}
+.category-dropdown{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+   
+    margin-inline: auto;
+    align-items: center;
+    margin: 0.8em 0 0.2em 0;
+    border-radius: 0.4em;
+    padding-block:0.2em ;
+    padding-inline:0.35em ;
+    font-weight: 500;
+}
+.category-dropdown>span{
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+}
+.category-container{
+    display: flex;
+    position: absolute;
+    width: 100%;    
+    min-width: 120px;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 0.25em;
+
+}
+.category-item>label{
+    margin-left: 0.25em;
+    font-weight: 500;
+}
+.category-item{
+    /* width: 98%; */
+    display: flex;
+    justify-content: space-between;
+    padding: 00.25em;
+}
+.category-item>span{
+    margin-right: 1.2em;
+}
+.form-add-button{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.form-add-button>div{
+    display: flex;
+    border :1px solid black;
+    padding: 0.1em 0.45em;
+    border-radius: 0.4em;
+    cursor: pointer;
+
+    font-weight: 500;
+}
+.form-add-button>div>span{
+    display: flex;
+    align-items: center;
+    margin-left: 0.45em;
+}
+
+@media only screen and (max-width:1024px) {
+        .form-item{
+            width: 100%;
+
+        }
+        .category{
+            width: 60%;
+        }
+        
+}
+input{
+    font-weight: 500;
+}
